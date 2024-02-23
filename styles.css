@@ -1,0 +1,259 @@
+/* General styles */
+.bckg{
+  background-image: url('Media/handsofhunger.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+.button {
+  border: none;
+  color: transparent;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+}
+
+.button1 {
+  background-color: transparent; 
+  color: black; 
+  border: 2px solid ;
+  border-radius: 4rem;
+}
+
+.button1:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.button2 {
+  background-color: transparent; 
+  color: black; 
+  border: 2px solid ;
+  border-radius: 4rem;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.button3 {
+  background-color: transparent; 
+  color: black; 
+  border: 2px solid ;
+  border-radius: 4rem;
+}
+.button3:hover {
+  color: white;
+ background-color: rgb(67, 185, 77);
+ }
+ .button4 {
+  background-color: transparent; 
+  color: black; 
+  border: 2px solid ;
+  border-radius: 4rem;
+  
+ }
+ .button4:hover {
+  color: white;
+ background-color: rgb(14, 243, 155);
+ }
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #050505;
+  margin: 0;
+  padding: 0;
+  background-color: #463939bd;
+}
+
+
+h1, h2, h3 ,h4{
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  padding: 1rem;
+  border-style: ridge;
+  border: 5px solid rgb(12, 9, 9);
+  border-radius: 5rem;
+
+}
+
+h2 {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+}
+
+p {
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  text-size-adjust: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: #3bcc40;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #39a33e;
+}
+
+/* Hero section */
+.hero {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+/* Facts section */
+#facts {
+  background-color: #f5f5f5;
+  padding: 2rem;
+}
+
+#facts ul {
+  list-style: none;
+  padding: 0;
+}
+
+#facts li {
+  margin-bottom: 1rem
+}
+.solutions {
+  background-image: url('Media/hanna-morris-3EkT6xb4K9w-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+.resources {
+  background-image: url('Media/typical-indian-family-eating-together.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+.kevin{
+  background-image: url('Media/Kevin-Carter-Child-Vulture-Sudan.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 130vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button p {
+  margin: 0;
+}
+
+#donation-form {
+  background-color: #0e0d0d;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 500px;
+  z-index: 1000;
+}
+
+#donation-form label {
+  margin-bottom: 5px;
+}
+
+#donation-form select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#donation-form input[type="text"] {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #020202;
+}
+
+#donation-form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#donation-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#donation-form button[type="submit"] h3 {
+  margin: 0;
